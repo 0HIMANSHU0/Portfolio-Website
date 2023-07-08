@@ -115,7 +115,13 @@ nav ul li a:hover::after {
 
 .about-col-1 img {
  width: 100%;
+ border: 3px solid #ff004f;
+ box-shadow: 5px 5px 5px white;
  border-radius: 15px;
+ transition: 0.5s;
+}
+.about-col-1 img:hover{
+ transform: scale(1.1);
 }
 
 .about-col-2 {
@@ -500,7 +506,7 @@ nav .fas{
  }
  .contact-left p a {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 23px;
   text-decoration: none;
  }
 }
